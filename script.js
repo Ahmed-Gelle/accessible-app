@@ -77,6 +77,7 @@ function removeValue(input) {
   screen reader voice the actions. 
   We use the #sc_feedback element in the DOM to populate 
   the text which would be voiced
+  note:
 */
 function screenReaderFeedback(task, feedback = 'added') {
   sc_feedback.textContent = `${task} ${feedback}.`;
